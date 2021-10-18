@@ -1,0 +1,23 @@
+body {
+  background: url("../images/bgindex.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.filter button {
+  margin: 32px 32px 0 0;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: none;
+  letter-spacing: 2px;
+}
+.filter button:hover {
+  color: #d62c0e;
+}
+.filter button:focus {
+  outline: solid #d62c0e;
+  color: #89261b !important;
+}
